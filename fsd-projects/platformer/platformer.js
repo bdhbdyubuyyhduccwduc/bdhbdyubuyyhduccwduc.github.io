@@ -27,22 +27,68 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
+    createPlatform (100,650,100,5,); 
+    createPlatform (100,650,5,100);
+    createPlatform (200,550,5,100);
+    createPlatform (200,550,100,5,);
+    createPlatform (650,350,10,500,);
+    createPlatform (900,450,200,5,);
+    createBadPlatform (100,725,550,15,);
+    createPlatform (550,500,100,5,);
+    createPlatform (550,365,100,5,);
+    createBadPlatform (600,500,50,5,);
+    createPlatform (900,600,100,5,);
+    createPlatform (1100,0,10,450,);
+    createPlatform (1100,600,100,5,);
+    createPlatform (1000,600,100,5,);
+    createPlatform (1200,100,10,500,);
+    createPlatform (1150,500,50,5,);
+    createPlatform (1100,375,50,5,);
+    createPlatform (1150,250,50,5,);
+    createPlatform (1100,125,50,5,);
+    createPlatform (1200,100,100,5,);
+    createPlatform (1300,200,100,5,);
+    createPlatform (1200,300,100,5,);
+    createPlatform (1300,400,100,5,);
+    createPlatform (1200,500,100,5,);
+    createPlatform (1300,600,100,5,);
+    createPlatform (1200,700,100,5,);
+    createBadPlatform (800,600,100,5,);
+    createBadPlatform (700,600,200,5,);
+    createBadPlatform (650,600,50,5,);
+    createPlatform (650,700,650,5,);
+    createPlatform (1300,600,100,5,);
+    createPlatform(400,500,100,5)
+
+  
+
+
+    
 
 
 
 
     // TODO 3 - Create Collectables
-
-
+    createCollectable("steve",670,670,0,0)
+    createCollectable("diamond",600,300,5,0)
+    createCollectable("diamond",1250,50,5,0)
+    
 
     
     // TODO 4 - Create Cannons
 
+    createCannon("top", 200, 1000, 25, 10, 100,1200, 5)
+    createCannon("top", 300, 750, 25, 10, 50, 1200, 5)
+    createCannon("top", 400, 500, 25, 10, 25, 1200, 5)
+    createCannon("right", 200, 2000, 25, 10, 100,700, 5)
+    createCannon("right", 400, 2000, 25, 10, 50, 700, 5)
+    createCannon("right", 600, 2000, 25, 10, 25, 700, 5)
 
+   
     
     
     //////////////////////////////////
